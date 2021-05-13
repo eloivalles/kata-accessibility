@@ -1,17 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 
-:root {
-  --mainPink: #ef7998;
-  --mainYellow: rgb(249, 228, 148);
-  --mainWhite: #fff;
-  --mainBlack: #000;
-  --yellowTrans: rgba(249, 228, 148, 0.5);
-  --mainGrey: rgb(238, 238, 238);
-}
-
 body {
   font-family: "Kaushan Script", cursive;
-  background: var(--mainWhite);
+  background: var(--bgMain);
   color: var(--mainBlack);
 }
 /* nav links */
@@ -20,10 +11,10 @@ body {
 }
 .toggler-icon {
   font-size: 2.5rem;
-  color: var(--mainPink);
+  color: var(--primary);
 }
 .nav-link {
-  color: var(--mainPink);
+  color: var(--primary);
   font-size: 1.5rem;
   transition: all 0.5s ease-in-out;
 }
@@ -45,8 +36,8 @@ body {
   cursor: pointer;
 }
 .cart-info:hover {
-  background: var(--mainPink);
-  border-color: var(--mainPink);
+  background: var(--primary);
+  border-color: var(--primary);
   color: var(--mainWhite);
 }
 .cart-info:hover .cart-info__icon {
@@ -57,7 +48,7 @@ body {
 
 .max-height {
   min-height: calc(100vh - 76px);
-  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)),
+  background: linear-gradient(var(--bgHome), var(--bgHome)),
     url("../img/headerBcg.jpeg") center/cover fixed no-repeat;
   position: relative;
 }
@@ -66,7 +57,7 @@ body {
   margin-top: -4rem;
 }
 .banner-title {
-  color: var(--mainPink);
+  color: var(--primary);
   font-size: 4rem;
 }
 .banner-link {
@@ -76,7 +67,7 @@ body {
 }
 .banner-link:hover {
   background: var(--mainBlack);
-  color: var(--mainPink);
+  color: var(--primary);
 }
 /* endo of banner */
 /* cart  */
@@ -103,7 +94,7 @@ body {
 /* end of cart */
 /* cart item */
 .cart-item-remove {
-  color: var(--mainPink);
+  color: var(--primary);
   transition: all 1s ease-in-out;
 }
 .cart-item-remove:hover {
@@ -116,19 +107,19 @@ body {
 /* cart item */
 /* cart buttons */
 .btn-pink {
-  color: var(--mainPink) !important;
-  border-color: var(--mainPink) !important;
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
 }
 .btn-black {
   color: var(--mainBlack) !important;
   border-color: var(--mainBlack) !important;
 }
 .btn-black:hover {
-  color: var(--mainPink) !important;
+  color: var(--primary) !important;
   background: var(--mainBlack) !important;
 }
 .btn-pink:hover {
-  background: var(--mainPink) !important;
+  background: var(--primary) !important;
   color: var(--mainBlack) !important;
 }
 /* end of cart buttons */
@@ -145,7 +136,7 @@ body {
   left: -1.7rem;
   width: 100%;
   height: 100%;
-  outline: 0.5rem solid var(--mainYellow);
+  outline: 0.5rem solid var(--secondary);
   z-index: -1;
   transition: all 1s ease-in-out;
 }
@@ -158,7 +149,7 @@ body {
 
 /* store items */
 .store {
-  background: var(--mainGrey);
+  background: var(--bgStore);
 }
 .img-container {
   position: relative;
@@ -176,7 +167,7 @@ body {
   bottom: 0;
   right: 0;
   padding: 0.75rem;
-  background: var(--mainYellow);
+  background: var(--secondary);
   border-top-left-radius: 1rem;
   transition: all 1s ease-in-out;
   transform: translate(100%, 100%);
@@ -188,11 +179,11 @@ body {
   color: var(--mainWhite);
 }
 .store-item-value {
-  color: --mainYellow;
+  color: --secondary;
 }
 /*end of  store items */
 .search-box {
-  background: var(--mainPink);
+  background: var(--primary);
   color: var(--mainBlack);
 }
 
@@ -221,24 +212,24 @@ body {
   border-radius: 0.3rem;
 }
 .lightbox-close {
-  color: var(--mainPink);
+  color: var(--primary);
   font-size: 3rem;
   transition: all 1s ease-in-out;
   cursor: pointer;
 }
 .lightbox-close:hover {
-  color: var(--mainYellow);
+  color: var(--secondary);
 }
 
 .lightbox-control {
   position: absolute;
   font-size: 4rem;
-  color: var(--mainPink);
+  color: var(--primary);
   transition: all 1s linear;
   cursor: pointer;
 }
 .lightbox-control:hover {
-  color: var(--mainYellow);
+  color: var(--secondary);
 }
 .btnLeft {
   top: 50%;
