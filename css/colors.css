@@ -1,9 +1,9 @@
 :root {
   --mainWhite: #fff;
   --mainBlack: #000;
-  --primary: #ef7998;
+  --primary: #580a1f;
   --secondary: rgb(249, 228, 148);
-  --bgHome: rgba(249, 228, 148, 0.5);
-  --bgStore: rgb(238, 238, 238);
-  --bgMain: #fff;
+  --bgHome: rgba(226, 224, 215, 0.5);
+  --bgStore: rgb(92, 9, 117);
+  --bgMain: rgb(54, 54, 54);
 }
